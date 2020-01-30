@@ -7,5 +7,7 @@ echo $frase;
 
 echo PHP_VERSION;
 
+echo $frase;
+
 
 ?>

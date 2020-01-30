@@ -8,22 +8,32 @@ Maciel
     git push -u origin master
 
 Junior
+    -- Criar a pasta
+    git init
+    git remote add rorigin https://github.com/leicamvb/teste2901.git
+
     git remote add upstream https://github.com/leicamvb/teste2901.git
     git fetch upstream
+    
     --git checkout master
     git merge upstream/master
 
     -Alterar o arquivo
 
+    git add *
     git commit -m "Segundo Commit"
     git push origin master
 
-    fazer pull request no site do github
+    --pull request no github
 
 
 Maciel  
-    Fazer pull resquest mesclagem
+    -- fazer mesclagem do pull request no site do github
     git pull
+
+    --alterar o arquivo
+
+    git add *
     git commit -m "Feat(index.php) Quarto Commit" 
     git push origin master
 
